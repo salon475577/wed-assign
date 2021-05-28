@@ -1,0 +1,85 @@
+/*home page.html*/
+*{
+	margin: 0;
+    padding: 0;
+}
+header{
+	background-image: url("img/2.jpg");
+	height: 100vh; 
+	background-size: cover; 
+	background-position :center;
+}
+.menu{
+	margin-left: 25px; 
+	font-size: 18px; 
+	font-weight:500; 
+}
+ul{
+	list-style: none;  
+	text-align: left;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none; 
+	color: red; 
+	padding: 0px 5px; 
+	border: 2px solid black;
+}
+ul li a:hover{
+	background-color: #fff; 
+	color: #000;
+}
+.icon{
+	height: 32px;
+	width: 30px;
+	margin: 15px 4px 9px 15px;
+}
+.icon .j{
+	height: 4px;
+	width: 100%;
+	background-color: blue;
+	display: block;
+	border-radius: 3px;
+}
+#idea{
+	transform: translateY(-4px);
+}
+#idea3{
+	transform: translateY(3px);
+}
+.contain{
+	text-align: center; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%,-50%);
+}
+@media(max-width:700px){
+	.contain{
+		font-size:20px;
+	}
+	.menu{
+		font-size: 10px;
+	    height: 100vh;
+	    width: 100px;	
+		display: block;
+		text-align: left;
+		position: absolute;
+	    top: 0px;
+	    right: 0;
+	}
+	.menu li a{
+	    border:none;
+	}
+	
+	.menu li{
+	    display: block;
+	
+	}
+	.menu ul li a{
+		display: none;
+	}
+
+}
