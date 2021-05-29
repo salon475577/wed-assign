@@ -83,3 +83,80 @@ ul li a:hover{
 	}
 
 }
+ /*Here css of contact	*/
+/*contact.html*/
+*{
+	margin: 0;
+    padding: 0;
+}
+.bodies{
+	 margin: 0; 
+	 padding: 0 0; 
+	 text-align: center; 
+	 background-image: linear-gradient(pink, blue);  height: 100vh;
+	 background-size: cover; 
+	 font-family: "montserrat",sans-serif;
+}
+.title h1{
+	padding: 6px;
+	text-align: center; 
+	color: #add;
+}
+.title p{
+	text-align: center;
+}
+.border{
+	width:100px; 
+	height: 5px; 
+	background: #34495e; 
+	margin: 40px auto;
+}
+.contact-form{
+	max-width: 600px; 
+	margin: auto; 
+	padding: 0 5px; 
+	overflow: hidden;
+}
+.contact-form-text{
+	display: block; 
+	width: 100%; 
+	box-sizing: border-box; 
+	margin: 16px 0; 
+	border: 0; 
+	background: orange;
+	padding: 13px 28px;
+	outline: none; 
+	color:#add; 
+	transition: 0.5s;
+}
+.contact-form-text:focus{
+	box-shadow: 0 0 10px #34495e;
+
+}
+.contact-form-btn{
+	color: black; border-radius: 40px;
+ }
+.contact-form-btn:hover{
+	background: #fff;
+}
+@media(max-width:700px){
+	.title{
+		padding:40% 15px;
+		width:90%;
+	}
+	.title h1{
+		font-size: 15px;
+		position: relative;
+		flex-direction: row;
+	}
+	.contact-form{
+		max-width:  90%;
+
+	}
+	.contact-form-btn{
+	 border-radius: 40px;
+	 position: absolute;
+ }
+}
+    /*end of contact css*/
+
