@@ -91,6 +91,52 @@ ul li a:hover{
 		display: initial;
 	}
 }
+   /*html of css ended*/
+
+
+
+    /*css of porfolio starts*/
+/*portfolio*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.portfolio{
+	text-align: center;
+	color: blue;
+	font-size: 20px;
+}
+.placeholder {
+	margin-top: 75px;
+}
+.placeholder img{
+	width:200px;
+	height: auto;
+}
+.des{
+	padding: 15px;
+	color: pink;
+	
+}
+.image{
+	width: 355px;
+	margin-top:75px;
+	float: left;
+}
+
+}
+@media(max-width:700px){
+	.image{
+		width: 100%;
+		
+	}
+    
+    }
+      /*end of css of portfolio*/
+
+
+
+
  /*Here css of contact	*/
 /*contact.html*/
 *{
@@ -167,6 +213,8 @@ ul li a:hover{
  }
 }
     /*end of contact css*/
+
+
 
 /* open css of cv*/
 /*cv.html*/
