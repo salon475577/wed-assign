@@ -106,29 +106,28 @@ ul li a:hover{
 	color: blue;
 	font-size: 20px;
 }
-.placeholder {
-	margin-top: 75px;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
-.placeholder img{
-	width:200px;
-	height: auto;
-}
-.des{
-	padding: 15px;
-	color: pink;
-	
-}
-.image{
-	width: 355px;
-	margin-top:75px;
-	float: left;
-}
+.grid-container div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
 
 }
 @media(max-width:700px){
-	.image{
+	.grid-container div{
 		width: 100%;
+		padding:-10px 0;
 		
+	}
+	.grid-container{
+		padding: -10px;
+		grid-gap: -10px;
 	}
     
     }
@@ -228,12 +227,12 @@ ul li a:hover{
 .cover{
     margin: 0 auto; 
     width:700px; 
-    height: 155vh; 
+    height: 170vh; 
     border: 1px solid black;
     background-color: white;
     
 }
-img{
+.pp-size img{
     width: 65px;
     border-radius: 0px;
     float: right;
@@ -270,7 +269,7 @@ h3{
     text-align: center;
 }
 .p{
-    	font-size: 4.;
+    	font-size: 4px;
     }
 }
 
