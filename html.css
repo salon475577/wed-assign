@@ -8,6 +8,7 @@ header{
 	height: 100vh; 
 	background-size: cover; 
 	background-position :center;
+
 }
 .menu{
 	margin-left: 25px; 
@@ -61,17 +62,17 @@ ul li a:hover{
 		font-size:20px;
 	}
 	.menu{
-		font-size: 10px;
-	    height: 100vh;
-	    width: 100px;	
-		display: block;
-		text-align: left;
-		position: absolute;
-	    top: 0px;
-	    right: 0;
+	     font-size: 10px;
+	     height: 100vh;
+	     width: 100px;	
+	     display: block;
+	     text-align: left;
+	     position: absolute;
+	     top: 0px;
+	     right: 0;
 	}
 	.menu li a{
-	    border:none;
+	           border:none;
 	}
 	
 	.menu li{
@@ -102,32 +103,36 @@ ul li a:hover{
     padding: 0;
 }
 .portfolio{
-	text-align: center;
-	color: blue;
-	font-size: 20px;
+	   text-align: center;
+	   color: blue;
+	   font-size: 20px;
 }
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 10px;
+                background-color:blue;
+                padding: 10px;
+ 
 }
 .grid-container div{
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 10px 0;
+                    background-color:red;
+                    text-align: center;
+                    padding: 10px 0;
 
 }
+     
 @media(max-width:700px){
-	.grid-container div{
-		width: 100%;
-		padding:-10px 0;
-		
+       
+	.grid-container div{ 
+		            padding:-10px 0;
+		       
 	}
 	.grid-container{
-		padding: -10px;
-		grid-gap: -10px;
+		        padding: -10px;
+		        grid-gap: -10px
+                        width:200px;
+             
 	}
     
     }
@@ -140,13 +145,13 @@ ul li a:hover{
 /*contact.html*/
 *{
 	margin: 0;
-    padding: 0;
+        padding: 0;
 }
 .bodies{
 	 margin: 0; 
 	 padding: 0 0; 
 	 text-align: center; 
-	 background-image: linear-gradient(pink, blue);  height: 100vh;
+	 background-image: linear-gradient(pink, lightblue);  height: 100vh;
 	 background-size: cover; 
 	 font-family: "montserrat",sans-serif;
 }
@@ -183,14 +188,14 @@ ul li a:hover{
 	transition: 0.5s;
 }
 .contact-form-text:focus{
-	box-shadow: 0 0 10px #34495e;
+	                 box-shadow: 0 0 10px #34495e;
 
 }
 .contact-form-btn{
-	color: black; border-radius: 40px;
+	          color: black; border-radius: 40px;
  }
 .contact-form-btn:hover{
-	background: #fff;
+	                background: yellow;
 }
 @media(max-width:700px){
 	.title{
@@ -219,40 +224,40 @@ ul li a:hover{
 /*cv.html*/
 *{
 	margin: 0;
-    padding: 0;
+        padding: 0;
 }
 .section{
 	 background-image: linear-gradient(pink,white);
 }
 .cover{
-    margin: 0 auto; 
-    width:700px; 
-    height: 170vh; 
-    border: 1px solid black;
-    background-color: white;
+       margin: 0 auto; 
+       width:700px; 
+       height: 120vh; 
+       border: 1px solid black;
+       background-color: white;
     
 }
 .pp-size img{
-    width: 65px;
-    border-radius: 0px;
-    float: right;
-    margin-right: 120px;
-    margin-top: -90px;
+             width: 65px;
+             border-radius: 0px;
+             float: right;
+             margin-right: 120px;
+             margin-top: -90px;
     }
 
 .cover h4{
-	text-align: center;
-	background-color: blue;
-    font-size: 40px;
+	  text-align: center;
+	  background-color: blue;
+          font-size: 40px;
 }
 .details{
-   font-size: 15px;  
-   text-align: left;
-   background-color: blue; 
+         font-size: 15px;  
+         text-align: left;
+         background-color: blue; 
    
 }
 table td th{
-	border: 2px solid black:;
+	   border: 2px solid black:;
 }
 table{
 	width:95%;
@@ -260,16 +265,16 @@ table{
 	text-align: center;
 }
 hr{
-	background-color: green;
+  background-color: green;
 }
 h3{
-	width: 32%;
+    width: 32%;
     background-color: red;
     border:1px solid black;
     text-align: center;
 }
 .p{
-    	font-size: 4px;
+   font-size: 4px;
     }
 }
 
@@ -278,9 +283,59 @@ h3{
 		flex-direction: column;
 		width: 20%;
 		position: absolute;
+           
 		
 	}
+       
+
+}
 	/*end of css of cv*/
+
+
+/*sitereport start*/
+	/*sitereport.html */
+*{
+	margin: 0;
+	padding: 0;
+}
+.Enter{
+	background-image: linear-gradient(pink,blue);
+}
+h5{
+	color: red;
+	font-size: 25px;
+	text-align: center;
+}
+.koirala {
+	 margin-top: 20px;
+}
+.koirala img{
+             width:400px;
+	     height: 200px;
+}
+.des{
+	color: black;
+	width: 95%;
+	
+}
+.salon{
+	width: 440px;
+	margin-top:0;
+	float: left;
+}
+.homepages{
+	font-size: 12px;
+	text-align: left;
+	background-color: pink;
+
+}
+h6{
+	font-size: 20px;
+	text-align: left;
+	color: black;
+}
+    /*end of sitereport css*/
+
     
 
 
