@@ -111,12 +111,12 @@ ul li a:hover{
                 display: grid;
                 grid-template-columns: auto auto auto;
                 grid-gap: 10px;
-                background-color:blue;
+                background-color:#2196F3;
                 padding: 10px;
  
 }
 .grid-container div{
-                    background-color:red;
+                    background-color:rgba(255,255,255,0.8);
                     text-align: center;
                     padding: 10px 0;
 
@@ -125,13 +125,10 @@ ul li a:hover{
 @media(max-width:700px){
        
 	.grid-container div{ 
-		            padding:-10px 0;
+		           width:100%;
 		       
-	}
-	.grid-container{
-		        padding: -10px;
-		        grid-gap: -10px
-                        width:200px;
+	
+	
              
 	}
     
@@ -257,7 +254,7 @@ ul li a:hover{
    
 }
 table td th{
-	   border: 2px solid black:;
+	   border: 2px solid black;
 }
 table{
 	width:95%;
@@ -276,7 +273,6 @@ h3{
 .p{
    font-size: 4px;
     }
-}
 
 @media(max-width: 700px){
 	.cover{
@@ -312,10 +308,12 @@ h5{
 .koirala img{
              width:400px;
 	     height: 200px;
+	     margin-left:10px;
 }
 .des{
 	color: black;
 	width: 95%;
+	margin:10px;
 	
 }
 .salon{
@@ -334,7 +332,46 @@ h6{
 	text-align: left;
 	color: black;
 }
+.grid{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 10px;
+                background-color:blue;
+                padding: 10px;
+ 
+}
+.grid div{
+            background-color:white;
+            text-align: center;
+            padding: 10px 0;
+
+}
+.grid .grid4 img{
+	background-size:cover;
+	width:92%;
+	height:180px;
+}
+.grid-css{
+	padding:10px;
+	display:grid;
+	grid-template-columns:auto auto;
+	background-color:lightblue;
+}
+.grid-css div{
+	padding:10px 0;
+	text-align:center;
+
+}
+.grid-css .grid2 img{
+	background-size:cover;
+	width:80%;
+	height:270px;
+}
+
+
+
     /*end of sitereport css*/
+
 
     
 
